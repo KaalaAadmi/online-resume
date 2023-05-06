@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arnav Resume</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- BOX ICONS -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- SWIPER CSS -->
+    <!-- <link rel="stylesheet" href="css/swiper-bundle.min.css"> -->
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.css" integrity="sha512-Yh4EqHPEJlOr5IFQ6EXPAA3RhwHgRBesEJLWJaz+xj1Bix5peuxOk40IA3gp7LH0BHJvi0e5QNL1iqvvLjdA9w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body> 
+    <!-- HEADER -->
+    <header class="l-header scroll-header" id="header">
+        <nav class="nav bd-container">
+            
+            <a href="#home" class="nav__logo">Arnav</a>
+            <div class="nav__menu" id="nav-menu">
+                
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class='bx bx-home icon' id="icon-home"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class='bx bx-user icon' id="icon-about"></i> About
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#qualification" class="nav__link">
+                            <i class='bx bx-book icon' id="icon-education"></i> Qualification
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+                            <i class='bx bx-photo-album' id="icon-portfolio"></i> Portfolio
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class='bx bx-receipt icon' id="icon-skills"></i> Skills
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#testimonial" class="nav__link">
+                            <i class='bx bx-photo-album' id="icon-testimonials"></i> Testimonials
+                        </a>
+                    </li>
+                    <!-- <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class='bx bx-briefcase-alt icon' id="icon-experience"></i> Experience
+                        </a>
+                    </li> -->
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class='bx bx-phone icon' id="icon-contact"></i> Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class='bx bx-x nav__close' id="nav-close"></i>
+            </div>
+            <div class="nav__btns">
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt' ></i>
+                </div>
+            </div>
+            
+        </nav>
+        <!-- <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Arnav</a>
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav> -->
+    </header>
+    <main class="l-main">
+        <!-- HOME -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I am <span class="home__title-color">Arnav</span><br> a <span class="typing"></span></h1>
+                <a href="#contact" class="button">Contact Me</a>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/arnav-bhattacharya-92033677" class="home__social-icon" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/ami_arnavbhattacharya/" class="home__social-icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://github.com/KaalaAadmi" class="home__social-icon" target="_blank"><i class='bx bxl-github' ></i></a>
+            </div>
+            <div class="home__img">
+                <img id="myImage" src="img/Vector.png" alt="">     
+            </div>
+        </section>
+        <!-- ABOUT -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="img/test.png" alt="">
+                </div>
+                <div>
+                    <h2 class="about__subtitle">I am Arnav</h2>
+                    <p class="about__text">Exceptionally resourceful, well-organized Professional with two years of experience and a strong academic background in <bold> Computer Science</bold>. Great analytical and problem-solving abilities and capable of managing many projects while delivering high-quality work in a fast-paced, deadline-driven workplace.</p>
+                </div>
+                <div class="about__buttons">
+                    <a download="" href="/pdf/Arnav+Bhattacharya+Resume.docx" class="button button--flex">
+                        Download CV</i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- QUALIFICATION -->
+
+        <section class="qualification section" id="qualification">
+            <h2 class="section-title">Qualification</h2>
+            <h2 class="about__subtitle">My Personal Journey</h2>
+            <div class="qualification__container bd-container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active active-link" data-target="#education">
+                        <i class='bx bxs-graduation qualification__icon'></i>
+                        Education
+                    </div>
+
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class='bx bxs-briefcase qualification__icon' ></i>
+                        Work
+                    </div>    
+                </div>
+                <div class="qualification__sections">
+                    <div class="qualification__content  qualification__active" data-content id="education">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">MSc in Computer Science</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">Trinity College Dublin</span>
+                                <!-- <span class="qualification__subtitle-2" ></span> -->
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2022 - Present
+                                </div>
+                            </div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">BTech in Computer Science</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">Vellore Institute of Technology, Vellore</span>
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2016 - 2020
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">ICSE XII Boards</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">Hiranandani Foundation School, Thane</span>
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2015 - 2016
+                                </div>
+                            </div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">ISC X Boards</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">Hiranandani Foundation School, Thane</span>
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2013 - 2014
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">Masters in UI/UX</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">Peru - Institute</span>
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2019-2021
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                    <!-- education content 2 -->
+                    <div class="qualification__content" data-content id="work">
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">Analyst (API Developer)</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">Schneider Electric</span>
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2021 - 2022
+                                </div>
+                            </div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">Graduate Engineering Trainee (API Developer)</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">Schneider Electric</span>
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2020 - 2021
+                                </div>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">API Developer Intern</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">Schneider Electric</span>
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2020 - 2020
+                                </div>
+                            </div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                        </div>
+                        <div class="qualification__data">
+                            <div></div>
+                            <div>
+                                <div style="padding-top: 20px;"></div>
+                                <span class="qualification__rounder"></span>
+                                <!-- <span class="qualification__line"></span> -->
+                            </div>
+                            <div>
+                                <h3 class="qualification__title" style="padding-left: 10px;">Web Development Intern</h3>
+                                <span class="qualification__subtitle" style="padding-left: 10px;">IOCL</span>
+                                <div class="qualification__calendar" style="padding-left: 10px;">
+                                    <i class='bx bxs-calendar' ></i>
+                                    2018 - 2018
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- <section class="education section" id="education">
+            <h2 class="section-title">Education</h2>
+            <div class="education__container bd-grid">
+                <div class="education__content">
+                    <div class="education__time">
+                        //<span class="education__time">2014</span>
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">Master Of Design</h3>
+                        <span class="education__studies">University of Studies</span>
+                        <span class="education__year">2010 - 2015</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        <span class="education__line"></span>
+                    </div>
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">WEB DEVELOPER</h3>
+                        <span class="education__studies">Institute of Studies</span>
+                        <span class="education__year">2016 - 2019</span>
+                    </div>
+                </div>
+
+                <div class="education__content">
+                    <div class="education__time">
+                        <span class="education__rounder"></span>
+                        //<span class="education__line"></span>
+                    </div>
+                    <div class="education__data bd-grid">
+                        <h3 class="education__title">MASTER IN UI/UX</h3>
+                        <span class="education__studies">University  Studies</span>
+                        <span class="education__year">2019 - 2021</span>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+        <!-- PORTFOLIO -->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <h2 class="about__subtitle">Most Recent Work</h2>
+            <div class="portfolio__container bd-grid swiper-container">
+                <div class="swiper-wrapper"> 
+                    <!-- Portfolio 1 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/ps-mockup.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Video Streaming Website</h3>
+                            <p class="portfolio__description">The video streaming web application was developed using React for the front end, styled-components for UI, MongoDB for database management, Firebase for video storage, and Express for authentication.</p>
+                            <a href="https://github.com/KaalaAadmi/video-streaming" class="buttons button--flex button--small portfolio__button">Demo</a>
+                        </div>
+                    </div>
+                    <!-- Portfolio 2 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/work1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">eCommerce Website</h3>
+                            <p class="portfolio__description">The e-commerce web application developed in MERN stack, comprising React for frontend, styled-components for UI and Express for backend, and MongoDB for database management. Stripe was used to implement the payment gateway.</p>
+                            <a href="https://github.com/KaalaAadmi/second-store-final" class="buttons button--flex button--small portfolio__button">Demo</a>
+                        </div>
+                    </div>
+                    <!-- Portfolio 3 -->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/cb-mockup.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Cook Book</h3>
+                            <p class="portfolio__description">This application is a recipe storage platform that has been developed using EJS for templating, MongoDB for database management, Express for server-side scripting, and Bootstrap for styling web pages.</p>
+                            <a href="https://github.com/KaalaAadmi/cookbook" class="buttons button--flex button--small portfolio__button">Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next">
+                    <i class='bx bxs-chevron-right swiper-portfolio-icon' id="next"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class='bx bxs-chevron-left swiper-portfolio-icon' id="prev"></i>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!-- SKILLS -->
+        <section class="skiills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">Programming ehthusiast who loves to learn about the new and upcoming technologies while developing further on the existing skills.</p>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-html5 skills__icon' ></i>
+                            <span class="skills__name">HTML</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">95%</span>
+                        </div>
+                        <div class="skills__bar skills__html"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon' ></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon' ></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-react skills__icon' ></i>
+                            <span class="skills__name">REACT</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                        <div class="skills__bar skills__css"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-react skills__icon' ></i>
+                            <span class="skills__name">REACT NATIVE</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">75%</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon' ></i>
+                            <span class="skills__name">UI/UX</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">85%</span>
+                        </div>
+                        <div class="skills__bar skills__ux"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon' ></i>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">90%</span>
+                        </div>
+                        <div class="skills__bar skills__java"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-python skills__icon' ></i>
+                            <span class="skills__name">Python</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                        <div class="skills__bar skills__python"></div>
+                    </div>
+                </div>
+                <!-- <div>
+                    <img src="img/work3.jpg" alt="" class="skills__img">
+                </div> -->
+            </div>
+        </section>
+        <!-- WORK -->
+        <!-- <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="img/work1.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="img/work2.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="img/work3.jpg" alt="">
+                </div>
+                <div class="work__img">
+                    <img src="img/work4.jpg" alt="">
+                </div>
+            </div>
+        </section> -->
+        <!-- TESTIMONIALS -->
+        <section class="testimonial section" id="testimonial">
+            <h2 class="section-title">Testimonials</h2>
+            <h2 class="about__subtitle">My Client Sayings</h2>
+            <div class="testimonial__container bd-grid swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="img/Huggies.jpeg" alt="" class="testimonial__img">
+                                <div>
+                                    <h3 class="testimonial__name">Agnith Chowdhury</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">Arnav is a hard and great worker. He thinks about possible problems, finds solution and has great working morale.</p>
+                    </div>
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="img/Antara.jpeg" alt="" class="testimonial__img">
+                                <div>
+                                    <h3 class="testimonial__name">Antara Banarjee</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">Very calm, composed, dilligent and hardworking individual. Did a wonderful job. You would love to work with him. Looking forward to working on more projects in the future with him.</p>
+                    </div>
+                    <!-- Testimonial 3 -->
+                    <!-- <div class="testimonial__content swiper-slide">
+                        <div class="testimonial__data">
+                            <div class="testimonial__header">
+                                <img src="img/Huggies.jpeg" alt="" class="testimonial__img">
+                                <div>
+                                    <h3 class="testimonial__name">Agnith Choudhury</h3>
+                                    <span class="testimonial__client">Client</span>
+                                </div>
+                            </div>
+                            <div>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                                <i class='bx bx-star testimonial__icon-star' ></i>
+                            </div>
+                        </div>
+                        <p class="testimonial__description">Aacha kaam karta hai.</p>
+                    </div> -->
+                </div>
+                <div class="swiper-pagination swiper-pagination-testimonial"></div>
+            </div>
+        </section>
+        <!-- CONTACT -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <div class="form-control">
+                        <input type="text" placeholder="Name" class="contact__input name"><!--<i class='bx bx-error-circle error'></i><i class='bx bx-check-circle correct' ></i> <small>Error Message</small>-->
+                    </div>
+                    <div class="form-control">
+                        <input type="mail" placeholder="Email" class="contact__input email"><!--<i class='bx bx-error-circle error'></i><i class='bx bx-check-circle correct' ></i> <small>Error Message</small>-->
+                    </div>
+                    <div class="form-control">
+                        <textarea name="" id="" placeholder="Comments" cols="0" rows="10" class="contact__input message"></textarea><!--<i class='bx bx-error-circle error'></i><i class='bx bx-check-circle correct' ></i> <small>Error Message</small>-->
+                    </div>
+                    <input type="button" value="Submit" class="contact__button button">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__title">Arnav</p>
+        <div class="footer__social">
+            <a href="https://www.facebook.com/arnav.bhattacharya.264/" class="footer__icon" target="_blank"><i class='bx bxl-facebook' ></i></a>
+            <a href="https://www.instagram.com/ami_arnavbhattacharya/" class="footer__icon" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://mobile.twitter.com/arnav264" class="footer__icon" target="_blank"><i class='bx bxl-twitter' ></i></a>
+        </div>
+        <p>&#169; LMAOOOOO Copyright</p>
+    </footer>
+    <!-- SCROLL TOP -->
+    <a href="#home" class="scrollup" id="scroll-up">
+        <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+    </a>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script type="module" src="js/main.js"></script>
+    <!-- SWIPER JS -->
+    <!-- <Script src="js/swiper-bundle.min.js"></Script> -->
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/js/swiper.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.esm.browser.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.js" integrity="sha512-+kAsamn11Sk3vzdISd1OWdwoVaKvlAm9pAt+r5a0j+1K0ozwfpFAQdpEP04KJKSbzGPA3TpVapBeJqur/gSyNg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
