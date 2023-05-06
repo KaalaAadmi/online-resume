@@ -568,16 +568,22 @@
     width:85%;
 }
 .skills__js{
-    width:75%;
+    width:85%;
+}
+.skills__react{
+    width: 90%;
+}
+.skills__react_native{
+    width: 85%;
 }
 .skills__ux{
     width:85%;
 }
 .skills__java{
-    width: 90%;
+    width: 85%;
 }
 .skills__python{
-    width: 80%;
+    width: 85%;
 }
 .skills__img{
     border-radius: 0.5rem;
